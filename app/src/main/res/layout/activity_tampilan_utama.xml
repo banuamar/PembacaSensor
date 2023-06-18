@@ -8,7 +8,6 @@
     android:layout_gravity="center_vertical"
     android:background="@drawable/bgutama"
     tools:context=".tampilanUtama">
-
     <RelativeLayout
         android:id="@+id/header"
         android:layout_width="match_parent"

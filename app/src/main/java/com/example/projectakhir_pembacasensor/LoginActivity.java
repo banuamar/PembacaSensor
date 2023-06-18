@@ -13,6 +13,7 @@ public class LoginActivity extends AppCompatActivity {
     Button tombolLogin;
     EditText idBar;
     EditText pwBar;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
