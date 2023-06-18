@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="50dp"
+    android:background="@drawable/bw_architecture"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="PEMBACA SENSOR REALTIME"
+        android:textSize="20dp"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="MENGGUNAKAN ESP 8266 "
+        android:textSize="20dp"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="bold"/>
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="250dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="60dp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/logoump" />
+
+    <Button
+        android:id="@+id/btnMasuk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:text="OK"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:backgroundTint="#4CB5F5"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="DIbuat oleh"
+        android:layout_marginTop="100dp"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="Nama  :"
+            />
+        <TextView
+            android:id="@+id/banu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:layout_alignParentEnd="true"
+            android:text="Rochmi Banu Amarudin" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="NIM     :" />
+        <TextView
+            android:id="@+id/nim1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:layout_alignParentEnd="true"
+            android:text="2003030001" />
+    </RelativeLayout>
+
+</LinearLayout>

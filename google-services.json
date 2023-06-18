@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "866651666358",
+    "firebase_url": "https://project-akhir-pembacasensor-default-rtdb.firebaseio.com",
+    "project_id": "project-akhir-pembacasensor",
+    "storage_bucket": "project-akhir-pembacasensor.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:866651666358:android:cb09f035506ccdab2f3317",
+        "android_client_info": {
+          "package_name": "com.example.projectakhir_pembacasensor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "866651666358-13c07opl77erkqopfajmc0maepl33ml9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXNF8xhVZxdDgtInoKKyvsIOvZCugpIz8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "866651666358-13c07opl77erkqopfajmc0maepl33ml9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
