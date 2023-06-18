@@ -2,7 +2,7 @@
     <string name="app_name">Pembaca Sensor</string>
     <string-array name="satuan">
         <item>Celcius</item>
-        <item>Fahrenhait</item>
+        <item>Fahrenheit</item>
         <item>Kelvin</item>
     </string-array>
 </resources>
